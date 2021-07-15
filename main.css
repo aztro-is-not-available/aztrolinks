@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-image: url(https://cdn.discordapp.com/attachments/328847498372317185/865251387141783582/nice_texture.png);
+    background-size: absolute;
+    color: white;
+    margin: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.main-box {
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.profile {
+    padding-bottom: 32px;
+    padding-top: 30px;
+}
+
+.pfp {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.link-box{
+    padding-bottom: 16px;
+}
+
+.box-link:link, .box-link:visited {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    color:#18254e;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    max-width: 680px;
+    transition: 0.2s ease;
+  }
+
+  
+.box-link:hover, .box-link:active {
+    background-color: black;
+    color:white;
+  }
