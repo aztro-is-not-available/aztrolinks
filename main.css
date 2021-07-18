@@ -6,6 +6,32 @@ body {
     background-size: absolute;
     color: white;
     margin: 0px;
+    height: 100%;
+}
+
+html,
+
+.box {
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box .row.header {
+    padding-bottom: 32px;
+    padding-top: 30px;
+  flex: 0 1 auto;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+.box .row.footer {
+  flex: 0 1 40px;
 }
 
 p {
@@ -19,17 +45,6 @@ h1 {
 h2 {
     font-size: 14px;
     margin: 0;
-}
-
-.main-box {
-    text-align: center;
-    margin-left: 12px;
-    margin-right: 12px;
-}
-
-.profile {
-    padding-bottom: 32px;
-    padding-top: 30px;
 }
 
 .pfp {
