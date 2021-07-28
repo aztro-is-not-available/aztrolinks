@@ -78,3 +78,39 @@ h2 {
     background-color: black;
     color:white;
   }
+
+.dropdown {
+
+position: relative;
+}
+
+.dcontent {
+  display: none;
+  position: relative;
+}
+
+.dropdown:hover .dcontent{
+    display: block;
+}
+
+.dbox-link:link, .dbox-link:visited {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: white;
+  color:#18254e;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  height: auto;
+  width: 70%;
+  max-width: 680px;
+  transition: 0.2s ease;
+}
+
+
+.dbox-link:hover, .dbox-link:active {
+  background-color: black;
+  color:white;
+}
