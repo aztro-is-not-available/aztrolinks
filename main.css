@@ -57,6 +57,9 @@ h2 {
     padding-bottom: 16px;
 }
 
+#spb {
+  background-color: pink;
+}
 .box-link:link, .box-link:visited {
     padding-top: 20px;
     padding-bottom: 20px;
