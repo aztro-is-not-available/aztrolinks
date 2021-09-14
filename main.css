@@ -81,3 +81,25 @@ h2 {
     background-color: black;
     color:white;
   }
+
+
+#daily-images {
+  box-shadow: 20px 10px 15px rgba(0, 0, 0, 0.623);
+}
+
+* {
+  box-sizing: border-box;
+  box-align: center;
+}
+
+.di-column {
+  width: 33.33%;
+  float: left;
+  padding-bottom: 32px;
+}
+
+.di-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
