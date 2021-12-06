@@ -18,7 +18,7 @@ html,
     margin-right: 12px;
     display: flex;
     flex-flow: column;
-    height: 100%;
+    height: 98%;
 }
 
 .box .row.header {
@@ -33,7 +33,7 @@ html,
 
 .box .row.footer {
   flex: 0 1 auto;
-  padding-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 p {
