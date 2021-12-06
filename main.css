@@ -33,6 +33,7 @@ html,
 
 .box .row.footer {
   flex: 0 1 auto;
+  padding-bottom: 2%;
 }
 
 p {
