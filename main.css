@@ -2,23 +2,26 @@
 
 body {
     font-family: 'Karla', sans-serif;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:#694ff6;
     background-image: url(bg.jpg);
-    background-size: 20%;
-    background-repeat: repeat;
     color: white;
     margin: 0px;
-    height: 100%;
+    height: auto;
+    width: auto;
 }
 
 html,
 
 .box {
     text-align: center;
-    margin-left: 12px;
-    margin-right: 12px;
+    /* margin-left: 12px;
+    margin-right: 12px; */
     display: flex;
     flex-flow: column;
-    height: 98%;
+    height: 100%;
 }
 
 .box .row.header {
@@ -32,8 +35,7 @@ html,
 }
 
 .box .row.footer {
-  flex: 0 1 auto;
-  margin-bottom: 2%;
+  margin-top: auto;
 }
 
 p {
@@ -77,8 +79,12 @@ h2 {
 
   
 .box-link:hover, .box-link:active {
-    background-color: black;
+    background-color: transparent;
     color:white;
+    box-sizing: border-box;
+    -webkit-box-shadow:inset 0px 0px 0px 3px white;
+    -moz-box-shadow:inset 0px 0px 0px 3px white;
+    box-shadow:inset 0px 0px 0px 3px white;
   }
 
 
