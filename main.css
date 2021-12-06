@@ -4,7 +4,7 @@ body {
     font-family: 'Karla', sans-serif;
     background-image: url(bg.png);
     background-size: absolute;
-    color: darkslategray;
+    color: white;
     margin: 0px;
     height: 100%;
 }
@@ -62,8 +62,8 @@ h2 {
     padding-bottom: 20px;
     padding-left: 16px;
     padding-right: 16px;
-    background-color: darkslategray;
-    color:#bb231e;
+    background-color: white;
+    color:#18254e;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
