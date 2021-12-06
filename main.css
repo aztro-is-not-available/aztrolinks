@@ -3,7 +3,8 @@
 body {
     font-family: 'Karla', sans-serif;
     background-image: url(bg.jpg);
-    background-size: absolute;
+    background-size: 20%;
+    background-repeat: repeat;
     color: white;
     margin: 0px;
     height: 100%;
